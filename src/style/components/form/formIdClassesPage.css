@@ -1,0 +1,19 @@
+.formIdClassesPage{
+    margin-bottom: 150px;
+}
+
+.formIdClassesPage h2{
+    width: 150px;
+    margin-left: 150px;
+   
+}
+
+.formId_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto 0px auto;
+    max-width: 900px;
+    min-width: 900px; 
+}

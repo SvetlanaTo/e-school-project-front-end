@@ -1,0 +1,132 @@
+ .table_wrapper {
+    margin: 50px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+}
+
+table {
+    min-width: 500px;
+    border-collapse: collapse;
+    border: 1px solid rgb(40, 44, 52);
+}
+
+td {
+    border-top: 1px solid rgb(40, 44, 52);
+}
+
+th,td {
+    padding:10px;
+    text-align: center;
+} 
+
+
+.btn-neutral {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+.btn-neutral-xl {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 100px;
+    background-color:  rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+.btn-neutral-xs {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 50px;
+    background-color:  rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+
+.btn-add {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(66, 155, 244);
+    border: 1px solid rgb(66, 155, 244);
+    border-radius: 5px;
+}
+
+.btn-add-withMargine {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(66, 155, 244);
+    border: 1px solid rgb(66, 155, 244);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.btn-add-xl {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(66, 155, 244);
+    border: 1px solid rgb(66, 155, 244);
+    border-radius: 5px;
+}
+
+
+.btn-update {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(48, 149, 163);
+    border: 1px solid rgb(48, 149, 163);
+    border-radius: 5px;
+}
+
+.btn-delete {
+    cursor: pointer;
+    color: red;
+    height: 35px;
+    background-color: rgba(97, 218, 251, 0);
+    border: 1px solid red;
+    border-radius: 5px;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.btn-cancel {
+    cursor: pointer;
+    color: gray;
+    height: 35px;
+    background-color:rgba(97, 218, 251, 0);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#need-margin{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+ul.getParentList li{
+    margin-bottom: 10px;
+
+}
+
+.btn-update-withMargine{
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(48, 149, 163);
+    border: 1px solid rgb(48, 149, 163);
+    border-radius: 5px;
+}

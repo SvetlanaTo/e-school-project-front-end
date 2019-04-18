@@ -1,0 +1,429 @@
+.form_body{
+    margin-bottom: 150px;
+}
+
+div.form_body_addLinks {
+    background-color: blue;   
+/* width: 200px; */
+height: 120px;
+background: url('../../../../src/images/geometry.jpg');
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(40, 44, 52);
+    z-index: -10;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.formTable_btn-add-xl1 {
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(66, 155, 244);
+    border: 1px solid rgb(66, 155, 244);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 950px;
+}
+
+.formTable_btn-add-xl2 {
+    /* margin-top: 10px; */
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(66, 155, 244);
+    border: 1px solid rgb(66, 155, 244);
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+    margin-left: 950px;
+}
+
+/* #addFormButton {
+background-color: yellow;
+margin-left: 950px;
+
+}
+
+#addStudentToFormButton{
+background-color: aqua;
+margin-left: 950px;
+
+} */
+
+#h2_form_body{
+    width: 150px;
+    margin-left: 150px;
+    /* margin-top: -50px; */
+ }
+
+ .form_wrapper {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto 0px auto;
+    max-width: 1000px;
+    min-width: 1000px;  
+}
+
+#form_table_id{
+   min-width: 1000px;
+    border-collapse: collapse;
+    border: 1px solid rgb(40, 44, 52);
+    /* background-color: blue; */
+}
+
+#form_t_header{
+    /* min-width: 500px; */
+}
+
+#cells_for_buttons{
+    /* background-color: aqua; */
+    padding: -10px !important;    
+    min-width: 68px !important;
+    }
+
+#form_tab_header_id{
+    /* font-style: italic; */
+    /* background-color: yellow; */
+    /* min-width: 120px; */
+    /* border: 1px solid rgb(40, 44, 52); */
+}
+
+#form_table_id td{
+    min-width: 120px;
+    border-top: 1px solid rgb(40, 44, 52);
+    /* background-color: red; */
+}
+
+
+ #form_table_id.formTable_ {
+     /* border: 1px solid rgb(40, 44, 52) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto 0px auto;  */
+    /* max-width: 7000px;*/
+    /* min-width: 700px;    */
+} 
+
+table.formTable_ {
+    /* min-width: 500px;
+    border-collapse: collapse;
+    border: 1px solid rgb(40, 44, 52) !important;
+    background-color: aquamarine; */
+
+} 
+
+.formTable_ td{
+    /* background-color: red;
+    min-width: 30px;
+    border-top: 1px solid rgb(40, 44, 52); */
+}
+
+/* .formTable_ th, td {
+    padding: 10px;
+    text-align: center;
+}  */
+
+.formTable_btn-neutral {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+.formTable_btn-neutral-xl {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 100px;
+    background-color:  rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+.formTable_btn-neutral-xs {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 50px;
+    background-color:  rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+
+.formTable_btn-add {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(66, 155, 244);
+    border: 1px solid rgb(66, 155, 244);
+    border-radius: 5px;
+}
+
+
+
+
+.formTable_btn-update {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(48, 149, 163);
+    border: 1px solid rgb(48, 149, 163);
+    border-radius: 5px;
+}
+
+.formTable_btn-delete {
+    cursor: pointer;
+    color: red;
+    height: 35px;
+    background-color: rgba(97, 218, 251, 0);
+    border: 1px solid red;
+    border-radius: 5px;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.formTable_btn-cancel {
+    cursor: pointer;
+    color: gray;
+    height: 35px;
+    background-color:rgba(97, 218, 251, 0);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.formTable_btn-nop {
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(66, 155, 244);;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.formTable_need-margin{
+    margin-top: 5px;
+    margin-right: 5px;
+   
+}
+
+
+
+
+
+form.form_search_header{
+    border-bottom: 3px solid #1D4087;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+}
+
+#form_search_button1{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+#form_search_input3 {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+/* #form_search_input2{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    margin-right: 5px;
+    margin-left: 5px;
+} */
+
+#form_search_input1{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: yellow; */
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#form_search_input4{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: green; */
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#form_search_input5{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: aqua; */
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.subject_wrapper>a {
+    margin-top: 20px;
+    color: rgb(97, 218, 251);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subject_wrapper>ul {
+    list-style: none;
+}
+
+.list_row ul {
+    list-style: none;
+    border: solid 1px grey;
+    margin-bottom: 10px;
+}
+
+.list_row ul li {
+    list-style: none;
+    display: table-cell;
+    padding: 0 20px;
+} */
+
+/* .row_to_ftsId >tr:hover{
+    background-color: grey;
+}  */
+
+
+/* .students-grid {
+    border: solid 1px black
+}
+
+.students-grid-header {
+    display: grid;
+    grid-template-columns: 7fr;
+    grid-column-gap: 10px;
+    border-bottom: solid 5px black;
+}
+
+.students-grid-col-1 {
+    grid-column: 1;
+    background-color: aqua
+}
+
+.students-grid-col-2 {
+    grid-column: 2;
+    background-color: blue
+}
+
+.students-grid-col-3 {
+    grid-column: 3;
+    background-color: red
+}
+
+.students-grid-col-4 {
+    grid-column: 4;
+    background-color: orange
+}
+
+.students-grid-col-5 {
+    grid-column: 5;
+    background-color: green
+}
+
+.students-grid-col-6 {
+    grid-column: 6;
+    background-color: yellow
+}
+
+.students-grid-col-7 {
+    grid-column: 7;
+    background-color: pink
+}
+
+.grid-every-row {
+    display: grid;
+    grid-template-columns: 7fr;
+    grid-auto-rows: auto; 
+    grid-column-gap: 1px;
+    row-gap: 100px;
+    border-bottom: solid 2px black;
+}
+
+.grid-every-row-col-1 {
+    grid-column: 1;
+    background-color: aqua
+}
+
+/* .grid-every-row-col-2 {
+    grid-column: 2;
+    background-color: blue
+}
+
+.grid-every-row-col-3 {
+    grid-column: 3;
+    background-color: red
+}
+
+.grid-every-row-col-4 {
+    grid-column: 4;
+    background-color: orange
+}
+
+.grid-every-row-col-5 {
+    grid-column: 5;
+    background-color: green
+}
+
+.grid-every-row-col-6 {
+    grid-column: 6;
+    background-color: yellow
+}
+
+.grid-every-row-col-7 {
+    grid-column: 7;
+    background-color: pink
+} */ 

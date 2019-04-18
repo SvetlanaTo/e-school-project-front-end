@@ -1,0 +1,131 @@
+ .bodies {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.subject_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto 0px auto;
+    max-width: 700px;
+}
+/* 
+.subject_wrapper>a {
+    margin-top: 20px;
+    color: rgb(97, 218, 251);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subject_wrapper>ul {
+    list-style: none;
+}
+
+.list_row ul {
+    list-style: none;
+    border: solid 1px grey;
+    margin-bottom: 10px;
+}
+
+.list_row ul li {
+    list-style: none;
+    display: table-cell;
+    padding: 0 20px;
+} */
+
+/* .row_to_ftsId >tr:hover{
+    background-color: grey;
+}  */
+
+
+/* .students-grid {
+    border: solid 1px black
+}
+
+.students-grid-header {
+    display: grid;
+    grid-template-columns: 7fr;
+    grid-column-gap: 10px;
+    border-bottom: solid 5px black;
+}
+
+.students-grid-col-1 {
+    grid-column: 1;
+    background-color: aqua
+}
+
+.students-grid-col-2 {
+    grid-column: 2;
+    background-color: blue
+}
+
+.students-grid-col-3 {
+    grid-column: 3;
+    background-color: red
+}
+
+.students-grid-col-4 {
+    grid-column: 4;
+    background-color: orange
+}
+
+.students-grid-col-5 {
+    grid-column: 5;
+    background-color: green
+}
+
+.students-grid-col-6 {
+    grid-column: 6;
+    background-color: yellow
+}
+
+.students-grid-col-7 {
+    grid-column: 7;
+    background-color: pink
+}
+
+.grid-every-row {
+    display: grid;
+    grid-template-columns: 7fr;
+    grid-auto-rows: auto; 
+    grid-column-gap: 1px;
+    row-gap: 100px;
+    border-bottom: solid 2px black;
+}
+
+.grid-every-row-col-1 {
+    grid-column: 1;
+    background-color: aqua
+}
+
+/* .grid-every-row-col-2 {
+    grid-column: 2;
+    background-color: blue
+}
+
+.grid-every-row-col-3 {
+    grid-column: 3;
+    background-color: red
+}
+
+.grid-every-row-col-4 {
+    grid-column: 4;
+    background-color: orange
+}
+
+.grid-every-row-col-5 {
+    grid-column: 5;
+    background-color: green
+}
+
+.grid-every-row-col-6 {
+    grid-column: 6;
+    background-color: yellow
+}
+
+.grid-every-row-col-7 {
+    grid-column: 7;
+    background-color: pink
+} */ 

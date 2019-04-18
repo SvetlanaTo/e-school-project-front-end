@@ -1,0 +1,201 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .same {
+    float: left;
+    overflow: hidden;
+    color: white;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: chartreuse;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(97, 218, 251);
+    color: blue;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    vertical-align: middle; 
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+  }
+
+  a.activeHeader {
+    color: chartreuse
+}
+
+.logout {
+    cursor: pointer;
+    /* margin-left: 20px; */
+
+
+    float: left;
+    overflow: hidden;
+    color: white;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+
+  .logout:hover {
+    display: block;
+    cursor: pointer;
+    background-color: rgb(97, 218, 251);
+    color: blue;
+  }
+
+.logger-page{
+  margin-bottom: 300px;
+  display: block;
+}
+
+
+
+
+
+
+/* .header {
+    background-color: rgb(40, 44, 52);  
+    height: 60px;
+    width: 100%;  
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 50px;
+    color: white;
+     display: flex;
+    
+    margin-top: 0px; 
+
+} */
+
+
+/* .header>a {
+    color: rgb(97, 218, 251);
+    text-decoration: none;
+    vertical-align: middle; 
+} */
+
+/* #joined_school_logo{
+    color: chartreuse
+}
+
+.e-school-logo{
+    margin-right: 100px;
+    padding-top: 0px;
+    color: chartreuse
+} */
+
+
+
+/* .header_links {
+    display: flex;
+    padding-top: 0px;    
+} */
+
+/* .header_links>a {
+    color: rgb(97, 218, 251);
+    text-decoration: none;
+    padding: 0 20px;    
+} */
+
+
+
+/* .header_links>a:hover {
+    color: rgb(97, 133, 251);
+} */
+
+/* .unutrasnji{
+    color: rgb(97, 218, 251);
+    text-decoration: none;
+    vertical-align: middle;    
+}
+
+.unutrasnji>a {
+    color: rgb(97, 218, 251);
+    text-decoration: none;
+    padding: 0 20px;
+    
+} */
+
+ 
+
+/* 
+.unutrasnji>a:hover {
+    color: rgb(97, 133, 251);
+}
+
+.logout {
+  color: white;
+}
+
+.logout:hover {
+    color: rgb(97, 133, 251);
+} */
+

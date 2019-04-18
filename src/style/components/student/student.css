@@ -1,0 +1,114 @@
+.my_student_page{
+    margin-bottom: 150px;
+}
+
+div.my_student_page_NoaddLinks{
+    background-color: blue;   
+    /* width: 200px; */
+    height: 120px;
+    background: url('../../../../src/images/geometry.jpg');
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(40, 44, 52);
+        z-index: -10;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+.my_student_h2{
+    width: 150px;
+    margin-left: 150px;
+}
+
+.my_student_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto 0px auto;
+    max-width: 1000px;
+    min-width: 1000px;  
+}
+
+#mystudent_table_id{
+    min-width: 1000px;
+    border-collapse: collapse;
+    border: 1px solid rgb(40, 44, 52);
+}
+
+#mystudent_t_header{
+    min-width: 500px;
+
+}
+
+#cells_for_buttons_student{
+    width: 10px !important;
+}
+
+
+#mystudents_td{
+    min-width: 120px;
+    border-top: 1px solid rgb(40, 44, 52);
+}
+
+form.mystudent_search_header{
+    border-bottom: 3px solid #1D4087;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+}
+
+
+#mystudent_search_button1{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+#mystudent_search_input3 {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#mystudent_search_input1{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: yellow; */
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#mystudent_search_input4{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: green; */
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#mystudent_search_input5{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: aqua; */
+    margin-right: 5px;
+    margin-left: 5px;
+}

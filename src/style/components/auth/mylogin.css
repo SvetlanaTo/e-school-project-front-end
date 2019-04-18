@@ -1,0 +1,136 @@
+.login_body{
+    width: 100%;
+    height: calc(100vh - 50px);
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../../../../src/images/bg_pencil.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(40, 44, 52);
+    z-index: -10;
+    font-family: sans-serif;
+}
+
+.login_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 80px 40px;
+}
+
+.h2_login_box{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+
+}
+
+.p_login_box{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.login_box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login_input_text, .login_input_pass{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.my_login_submit{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.my_login_submit:hover{
+background: #efed40;
+color: #262626;
+}
+
+
+@media (max-width: 800px) {
+    .login_box input {
+      margin: 10px 0;
+    }
+}
+
+
+
+/*
+ .responsive_login_form {
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-inline form {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .form-inline input[type='submit'] {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-inline input[type='submit']:hover {
+    background-color: royalblue;
+  }
+  
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  } */

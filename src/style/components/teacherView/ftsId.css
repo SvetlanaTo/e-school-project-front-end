@@ -1,0 +1,310 @@
+/* *{
+    padding: 0;
+    justify-content: center; 
+     align-items: center; 
+} */
+/* 
+ul {
+    padding-inline-start: -40px !important; 
+    padding: 0px 0px 0px 0px !important; 
+}
+
+li > ul li{
+    padding-inline-start: -40px !important; 
+    padding: 0px 0px 0px 0px !important; 
+} */
+
+
+
+.bodiesFTSId {
+    /* margin-top: 100px; */
+    margin-bottom: 300px;
+    padding-inline-start: -40px !important; 
+    padding: 0px 0px 0px 0px !important;
+}
+
+#zaglavlje_tv_ftsId {
+    /* padding-inline-start: 40px !important;  */
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px 0;
+    background: rgba(0,0, 0, 0.2); 
+    /* background-color: yellow; */
+    padding: 80px 40px;
+}
+
+#okvir_za_h3{
+
+    position: fixed;
+    top: 55px;
+    left: 0;
+}
+
+#zaglavlje_tv_ftsId h3{
+    font-family: sans-serif;
+    width: 350px;
+    margin-top: -30px;
+    margin-left: 20px;
+    padding: 12px;
+    font-weight: bold;
+    
+    /* color: #efed40; */
+    color: #fff;
+    /* color:#1D4087 */
+}
+
+#zaglavlje_tv_ftsId h2{
+    width: 350px;
+    margin-top: -45px;
+    padding: 15px;
+    font-weight: bold;
+    /* color: #efed40; */
+    color: #fff;
+    /* color:#1D4087 */
+}
+
+
+#zaglavlje_tv_ftsId p{
+    width: 350px;
+    margin-top: -45px;
+    padding: 15px;
+    font-weight: bold;
+    /* color: #efed40; */
+    color: #fff;
+    /* color:#1D4087 */
+}
+
+#zag_tabele_dnevnika{
+    border-bottom: 3px solid #1D4087;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+    /* width: 900px; */
+}
+
+#zag_tabele_dnevnika2 {
+    margin-bottom: 20px;
+   
+    width: 900px;
+}
+
+#zag_tabele_dnevnika li{
+ background-color: rgb(97, 218, 251);
+    border-bottom: 0px solid !important;
+    padding-left: 100px;
+    padding-bottom: 8px;
+    /* width: 500px; */
+    height: 50px;
+}
+
+#z_t_d_ul li{
+    justify-content: center;
+    /* justify-content: space-between; */
+    border: none !important; 
+    padding-left: 20px !important; 
+    padding-right: 20px !important; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    vertical-align: middle;
+    font-weight: 400;
+    /* font-size: large; */
+
+}
+
+#tv_header_li_student{
+    width: 110px !important;
+    margin-left: 15px!important;
+    /* padding-right: 10px !important; */
+}
+
+.flip-card-teacher-view_ocene {
+    /* background-color: aqua; */
+ 
+    width: 110px;
+
+  }
+
+#tv_header_li_mm{
+
+}
+
+#first_sem_avg{
+
+}
+
+#tv_header_li{
+    /* width: 500px !important; */
+    margin-left: 100px;
+}
+#z_t_d_ul2{
+    height: 200px;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+
+#z_t_d_ul2 li{
+    /* height: 200px; */
+    padding-top: 10px;
+    justify-content: center;
+    /* justify-content: space-between; */
+    border: none !important; 
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    vertical-align: middle;
+    font-weight: 400;
+    /* font-size: large; */
+
+}
+
+ .tview_ftsId_wrapper {
+    display: flex;
+    justify-content: center; 
+     align-items: center;  
+     flex-direction: column; 
+    margin: 50px auto 0px auto;
+    max-width: 900px;
+    text-decoration: none;
+}
+
+.tview_ftsId_wrapper>a {
+   
+    color: rgb(97, 218, 251);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tview_ftsId_wrapper ul {
+    
+    list-style: none;
+    /* border: solid 1px grey; */
+    text-decoration: none;
+    padding-inline-start: -40px !important;
+    padding: 20px 0px 0px 0px !important; 
+
+}
+
+.tview_ftsId_list_row ul {
+    /* margin-top: 200px; */
+    list-style: none;
+    border-bottom: solid 1px grey;
+    text-decoration: none;
+    padding-inline-start: -40px !important;
+    padding: 0px 0px 0px 0px !important; 
+    
+
+}
+
+.tview_ftsId_list_row ul li {
+    align-content: center;
+    list-style: none;
+    display: table-cell;
+    width: 200px;
+    padding-inline-start: -40px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+
+    form.search_in_tviewFTSID {
+        border-bottom: 3px solid #1D4087;
+        margin-bottom: 15px;
+        padding-left: 0px;
+        padding-bottom: 8px;
+        width: 100%;
+    }
+
+    
+
+    #button2{
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    
+    #input4 {
+        margin-left: 400px;
+    }
+    
+    #input5{
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        padding: 2px 10px;
+        margin-bottom: 10px;
+        height: 30px;
+        width: 150px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    #input6{
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        padding: 2px 10px;
+        margin-bottom: 10px;
+        height: 30px;
+        width: 150px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+form.unos_ocene_tv {
+    /* background-color: #efed40; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #ced4da;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+label.unos_ocene_tv_label{
+  
+    width: 200px;
+}
+
+select.unos_ocene_tv_select{
+
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-left: 10px;
+   
+    height: 40px;
+    width: 100px;
+    color: black;
+}
+
+.unos_ocene_tv_submit{
+    cursor: pointer;
+
+    color: #20232a;
+    height: 40px;
+    background-color: rgb(97, 218, 251);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px
+
+}
+
+button.unos_ocene_tv_cancel{
+    cursor: pointer;
+
+    color: white;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 150px;
+}

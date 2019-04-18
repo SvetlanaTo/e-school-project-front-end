@@ -1,0 +1,25 @@
+/* .bodies {
+    margin-bottom: 100px;
+    width: 50%;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-top: 100px;
+} */
+
+.category_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.category_wrapper>a {
+    margin-top: 20px;
+    /* margin: 0 auto; */
+    align-items: center;
+    color: rgb(97, 218, 251);
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,146 @@
+.myteacher_body{
+    margin-bottom: 150px;
+    /* max-width: 1350px; */
+}
+
+.myteacher_body_addLinks {
+    background-color: blue;   
+    /* width: 200px; */
+    height: 120px;
+    background: url('../../../../src/images/geometry.jpg');
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(40, 44, 52);
+        z-index: -10;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.myteacherTable_btn-add-xl1 {
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(66, 155, 244);
+    border: 1px solid rgb(66, 155, 244);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 950px;
+}
+
+.myteacherTable_btn-add-xl2 {
+    /* margin-top: 10px; */
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(66, 155, 244);
+    border: 1px solid rgb(66, 155, 244);
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+    margin-left: 950px;
+}
+
+#h2_myteacher_body{
+    /* background-color: aquamarine; */
+    width: 150px;
+    margin-left: 150px;
+    /* margin-top: -50px; */
+ }
+
+ .myteacher_wrapper {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto 0px auto;
+    max-width: 900px;
+    min-width: 900px;  
+}
+
+#myteacher_table_id{
+    min-width: 1000px;
+     border-collapse: collapse;
+     border: 1px solid rgb(40, 44, 52);
+     /* background-color: blue; */
+ }
+ 
+ #myteacher_t_header{
+     min-width: 500px;
+
+ }
+
+ #teacher_cells_for_buttons{
+    /* background-color: aqua; */
+    width: 10px;
+    /* padding: -10px !important;    
+    min-width: 68px !important; */
+}
+
+#myteachers_td{
+    min-width: 120px;
+    border-top: 1px solid rgb(40, 44, 52);
+}
+
+form.myteacher_search_header{
+    border-bottom: 3px solid #1D4087;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+}
+
+#myteacher_search_button1{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    background-color: rgb(97, 218, 251);
+    border: 1px solid rgb(97, 218, 251);
+    border-radius: 5px;
+}
+
+#myteacher_search_input3 {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#myteacher_search_input1{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: yellow; */
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#myteacher_search_input4{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: green; */
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#myteacher_search_input5{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    /* background-color: aqua; */
+    margin-right: 5px;
+    margin-left: 5px;
+}
